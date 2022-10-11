@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #3d0d11;
+    border-bottom: 1px solid #3d0d11;
+    position: fixed;
+    z-index: 10;
+    box-shadow: 6px 6px 10px #19191a;
+}
+header h1{
+    width: 20%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 20px;
+    color: azure;
+    font-family: 'Rubik Glitch';
+}
+header nav{
+    width: 60%;
+    float: right;
+    margin-top: 24px;
+    margin-right: 10%;
+    font-family: fantasy;
+}
+header nav ul li{
+    list-style: none;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+header > nav > ul > li > a{
+    text-decoration: none;
+    color: azure;
+    font-size: 1.3rem;
+}
+header > nav > ul > li > a:hover{
+    font-weight: bold;
+    opacity: 50%;
+}
+section{
+    width: 100%;
+    height: 700px;
+    float: left;
+}
+section#info h4{
+    margin-top: 10px;
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(44, 44, 44);
+    font-family: fantasy;
+}
+#imagen{
+    width: 35%;
+    height: 1%;
+    float: left;
+    padding-left: 10%;
+    margin-top: 8%;
+}
+div#informacion{
+    width: 35%;
+    height: 5%;
+    float: right;
+    text-align: justify;
+    padding-right: 14.5%;
+    padding-top: 7%;
+    font-family: fantasy;
+    font-size: 1.4rem;
+}
+#contact{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 10%;
+    font-family: fantasy;
+}
+#contact .columna{
+   width: 38%;
+   float: left;
+}
+#contact > h2{
+    text-transform: uppercase;
+    margin-bottom: 2%;
+}
+#contact > .columna > form > fieldset{
+    padding: 10px;
+    border: none;
+}
+#contact > .columna > form > fieldset > label{
+    display: block;
+    margin-top: 5px;
+}
+#contact > .columna > form > fieldset > input{
+    display: block;
+    padding: 3px;
+    border: none;
+    background-color: #fff;
+    width: 100%;
+    height: 40px;
+    color: #4d4d4d;
+}
+#contact > .columna > form > fieldset > textarea{
+    display: block;
+    padding: 3px;
+    border: none;
+    background-color: #fff;
+    width: 100%;
+}
+
+footer{
+    color: #4d4d4d;
+    height: 200px;
+    padding-top: 100px;
+    text-align: center;
+    width: 100%;
+    float: left;
+    font-size: 1.2rem;
+}
+

@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #3d0d11;
+    border-bottom: 1px solid #3d0d11;
+    position: fixed;
+    z-index: 10;
+    box-shadow: 6px 6px 10px #19191a;
+}
+header h1{
+    width: 20%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 20px;
+    color: azure;
+    font-family: 'Rubik Glitch';
+}
+header nav{
+    width: 60%;
+    float: right;
+    margin-top: 24px;
+    margin-right: 10%;
+    font-family: fantasy;
+}
+header nav ul li{
+    list-style: none;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+header > nav > ul > li > a{
+    text-decoration: none;
+    color: azure;
+    font-size: 1.3rem;
+}
+header > nav > ul > li > a:hover{
+    font-weight: bold;
+    opacity: 50%;
+}
+section{
+    width: 100%;
+    height: 5%;
+    float: left;
+    padding-top: 8%;
+}
+
+.btn:hover{
+    opacity:0.8;
+}
+.btnPrimary{ 
+    background-color: #3d0d11;
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: 0.5 ease-in all;
+    border-radius: 5px;
+}
+.card{
+    width: 13%;
+    height: 300px;
+    margin-left: 8.02%;
+    background-color: #c2c2c2;
+    border-radius: 5px;
+    text-align: center;
+    float: left;
+    font-family: fantasy;
+}
+.card > img{
+    width: 100%;
+    height: 60%;
+    border-radius: 5px;
+}
+.card > h3{
+    padding: 7px;
+}
+.card > h4{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 7px;
+    color: #3e403f;
+}
+.card > h5{
+    padding: 7px;
+    font-size: 0.8rem;
+}
+#products1{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#products1 :first-child{
+    margin: 0;
+  }
+#products2 :first-child{
+    margin: 0;
+}
+#products2{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+#products3 :first-child{
+    margin: 0;
+}
+#products3{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+
+footer{
+    color: #4d4d4d;
+    height: 200px;
+    padding-top: 100px;
+    text-align: center;
+    width: 100%;
+    float: left;
+    font-size: 1.2rem;
+}
+
